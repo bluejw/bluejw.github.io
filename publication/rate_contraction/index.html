@@ -6,7 +6,7 @@
 <meta name=generator content="Wowchemy 5.3.0 for Hugo">
 <meta name=google-site-verification content="vj7fvKjhcUAN8apE2cPC4rcJZ7Zzb-PWgPDa31As-yo">
 <meta name=author content="Wei Jin">
-<meta name=description content="a">
+<meta name=description content="We systematically study the rates of contraction with respect to the integrated L2-distance for Bayesian nonparametric regression in a generic framework, and, notably, without assuming the regression function space to be uniformly bounded. The generic framework is very flexible and can be applied to a wide class of nonparametric prior models. Three non-trivial applications of the framework are provided. The finite random series regression of an α-Hölder function, with adaptive rates of contraction up to a logarithmic factor. The un-modified block prior regression of an α-Sobolev function, with adaptive-and-exact rates of contraction. The Gaussian spline regression of an α-Hölder function, with near optimal rates of contraction. These applications serve as generalization or complement of their respective results in the literature. Extensions to the fixed-design regression problem and sparse additive models in high dimensions are discussed as well.">
 <link rel=alternate hreflang=en-us href=https://bluejw.github.io/publication/rate_contraction/>
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <meta name=theme-color content="#1565c0">
@@ -25,11 +25,13 @@
 <meta property="twitter:card" content="summary">
 <meta property="og:site_name" content="Wei Jin's Homepage">
 <meta property="og:url" content="https://bluejw.github.io/publication/rate_contraction/">
-<meta property="og:title" content=" | Wei Jin's Homepage">
-<meta property="og:description" content="a"><meta property="og:image" content="https://bluejw.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png">
+<meta property="og:title" content="Rates of Contraction with Respect to L2-Distance for Bayesian Nonparametric Regression | Wei Jin's Homepage">
+<meta property="og:description" content="We systematically study the rates of contraction with respect to the integrated L2-distance for Bayesian nonparametric regression in a generic framework, and, notably, without assuming the regression function space to be uniformly bounded. The generic framework is very flexible and can be applied to a wide class of nonparametric prior models. Three non-trivial applications of the framework are provided. The finite random series regression of an α-Hölder function, with adaptive rates of contraction up to a logarithmic factor. The un-modified block prior regression of an α-Sobolev function, with adaptive-and-exact rates of contraction. The Gaussian spline regression of an α-Hölder function, with near optimal rates of contraction. These applications serve as generalization or complement of their respective results in the literature. Extensions to the fixed-design regression problem and sparse additive models in high dimensions are discussed as well."><meta property="og:image" content="https://bluejw.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png">
 <meta property="twitter:image" content="https://bluejw.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://bluejw.github.io/publication/rate_contraction/"},"headline":"","datePublished":"0001-01-01T00:00:00Z","dateModified":"0001-01-01T00:00:00Z","author":{"@type":"Person","name":"Wei Jin"},"publisher":{"@type":"Organization","name":"Wei Jin's Homepage","logo":{"@type":"ImageObject","url":"https://bluejw.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"}},"description":"a"}</script>
-<title> | Wei Jin's Homepage</title>
+<meta property="article:published_time" content="2019-10-01T00:00:00+00:00">
+<meta property="article:modified_time" content="2019-10-01T00:00:00+00:00">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://bluejw.github.io/publication/rate_contraction/"},"headline":"Rates of Contraction with Respect to L2-Distance for Bayesian Nonparametric Regression","datePublished":"2019-10-01T00:00:00Z","dateModified":"2019-10-01T00:00:00Z","author":{"@type":"Person","name":"Fangzheng Xie"},"publisher":{"@type":"Organization","name":"Wei Jin's Homepage","logo":{"@type":"ImageObject","url":"https://bluejw.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"}},"description":"We systematically study the rates of contraction with respect to the integrated L2-distance for Bayesian nonparametric regression in a generic framework, and, notably, without assuming the regression function space to be uniformly bounded. The generic framework is very flexible and can be applied to a wide class of nonparametric prior models. Three non-trivial applications of the framework are provided. The finite random series regression of an α-Hölder function, with adaptive rates of contraction up to a logarithmic factor. The un-modified block prior regression of an α-Sobolev function, with adaptive-and-exact rates of contraction. The Gaussian spline regression of an α-Hölder function, with near optimal rates of contraction. These applications serve as generalization or complement of their respective results in the literature. Extensions to the fixed-design regression problem and sparse additive models in high dimensions are discussed as well."}</script>
+<title>Rates of Contraction with Respect to L2-Distance for Bayesian Nonparametric Regression | Wei Jin's Homepage</title>
 </head>
 <body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=5a04df1172b57e95d02534474ce2628a>
 <script src=/js/wowchemy-init.min.8988fb2a4bba758785868cfcb5244555.js></script>
@@ -112,46 +114,84 @@
 <div class=page-body>
 <div class=pub>
 <div class="article-container pt-3">
-<h1></h1>
+<h1>Rates of Contraction with Respect to L2-Distance for Bayesian Nonparametric Regression</h1>
 <div class=article-metadata>
+<div>
+<span>
+Fangzheng Xie</span>, <span class=author-highlighted>
+Wei Jin</span>, <span>
+Yanxun Xu</span>
+</div>
 <span class=article-date>
-January 0001
+October 2019
 </span>
+</div>
+<div class="btn-links mb-3">
+<a class="btn btn-outline-primary btn-page-header" href=https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-13/issue-2/Rates-of-contraction-with-respect-to-L_2-distance-for-Bayesian/10.1214/19-EJS1616.full target=_blank rel=noopener>
+PDF
+</a>
 </div>
 </div>
 <div class=article-container>
-<div class=space-below></div>
-<div class=article-style><p>a</p>
+<h3>Abstract</h3>
+<p class=pub-abstract>We systematically study the rates of contraction with respect to the integrated L2-distance for Bayesian nonparametric regression in a generic framework, and, notably, without assuming the regression function space to be uniformly bounded. The generic framework is very flexible and can be applied to a wide class of nonparametric prior models. Three non-trivial applications of the framework are provided. The finite random series regression of an α-Hölder function, with adaptive rates of contraction up to a logarithmic factor. The un-modified block prior regression of an α-Sobolev function, with adaptive-and-exact rates of contraction. The Gaussian spline regression of an α-Hölder function, with near optimal rates of contraction. These applications serve as generalization or complement of their respective results in the literature. Extensions to the fixed-design regression problem and sparse additive models in high dimensions are discussed as well.</p>
+<div class=row>
+<div class=col-md-1></div>
+<div class=col-md-10>
+<div class=row>
+<div class="col-12 col-md-3 pub-row-heading">Type</div>
+<div class="col-12 col-md-9">
+<a href=/publication/#2>
+Journal article
+</a>
 </div>
+</div>
+</div>
+<div class=col-md-1></div>
+</div>
+<div class="d-md-none space-below"></div>
+<div class=row>
+<div class=col-md-1></div>
+<div class=col-md-10>
+<div class=row>
+<div class="col-12 col-md-3 pub-row-heading">Publication</div>
+<div class="col-12 col-md-9">Electronic Journal of Statistics, 13(2), 3485-3512</div>
+</div>
+</div>
+<div class=col-md-1></div>
+</div>
+<div class="d-md-none space-below"></div>
+<div class=space-below></div>
+<div class=article-style></div>
 <div class=share-box aria-hidden=true>
 <ul class=share>
 <li>
-<a href="https://twitter.com/intent/tweet?url=https://bluejw.github.io/publication/rate_contraction/&text=" target=_blank rel=noopener class=share-btn-twitter>
+<a href="https://twitter.com/intent/tweet?url=https://bluejw.github.io/publication/rate_contraction/&text=Rates%20of%20Contraction%20with%20Respect%20to%20L2-Distance%20for%20Bayesian%20Nonparametric%20Regression" target=_blank rel=noopener class=share-btn-twitter>
 <i class="fab fa-twitter"></i>
 </a>
 </li>
 <li>
-<a href="https://www.facebook.com/sharer.php?u=https://bluejw.github.io/publication/rate_contraction/&t=" target=_blank rel=noopener class=share-btn-facebook>
+<a href="https://www.facebook.com/sharer.php?u=https://bluejw.github.io/publication/rate_contraction/&t=Rates%20of%20Contraction%20with%20Respect%20to%20L2-Distance%20for%20Bayesian%20Nonparametric%20Regression" target=_blank rel=noopener class=share-btn-facebook>
 <i class="fab fa-facebook"></i>
 </a>
 </li>
 <li>
-<a href="mailto:?subject=&body=https://bluejw.github.io/publication/rate_contraction/" target=_blank rel=noopener class=share-btn-email>
+<a href="mailto:?subject=Rates%20of%20Contraction%20with%20Respect%20to%20L2-Distance%20for%20Bayesian%20Nonparametric%20Regression&body=https://bluejw.github.io/publication/rate_contraction/" target=_blank rel=noopener class=share-btn-email>
 <i class="fas fa-envelope"></i>
 </a>
 </li>
 <li>
-<a href="https://www.linkedin.com/shareArticle?url=https://bluejw.github.io/publication/rate_contraction/&title=" target=_blank rel=noopener class=share-btn-linkedin>
+<a href="https://www.linkedin.com/shareArticle?url=https://bluejw.github.io/publication/rate_contraction/&title=Rates%20of%20Contraction%20with%20Respect%20to%20L2-Distance%20for%20Bayesian%20Nonparametric%20Regression" target=_blank rel=noopener class=share-btn-linkedin>
 <i class="fab fa-linkedin-in"></i>
 </a>
 </li>
 <li>
-<a href="whatsapp://send?text=%20https://bluejw.github.io/publication/rate_contraction/" target=_blank rel=noopener class=share-btn-whatsapp>
+<a href="whatsapp://send?text=Rates%20of%20Contraction%20with%20Respect%20to%20L2-Distance%20for%20Bayesian%20Nonparametric%20Regression%20https://bluejw.github.io/publication/rate_contraction/" target=_blank rel=noopener class=share-btn-whatsapp>
 <i class="fab fa-whatsapp"></i>
 </a>
 </li>
 <li>
-<a href="https://service.weibo.com/share/share.php?url=https://bluejw.github.io/publication/rate_contraction/&title=" target=_blank rel=noopener class=share-btn-weibo>
+<a href="https://service.weibo.com/share/share.php?url=https://bluejw.github.io/publication/rate_contraction/&title=Rates%20of%20Contraction%20with%20Respect%20to%20L2-Distance%20for%20Bayesian%20Nonparametric%20Regression" target=_blank rel=noopener class=share-btn-weibo>
 <i class="fab fa-weibo"></i>
 </a>
 </li>
