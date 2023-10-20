@@ -195,4 +195,12 @@ color: navy;
 &lt;p>A Bayesian Approach for Investigating the Pharmacogenetics of Combination Antiretroviral Therapy in People with HIV&lt;/p>
 &lt;p>&lt;a href="https://github.com/bluejw/BayesPharmacogenetics" target="_blank" rel="noopener">[Code]&lt;/a>&lt;/p>
 &lt;/li>
+&lt;li>
+&lt;p>A Bayesian Decision Framework for Optimizing Sequential Combination Antiretroviral Therapy in People with HIV&lt;/p>
+&lt;p>&lt;a href="https://github.com/bluejw/BayesOptimalTreatment" target="_blank" rel="noopener">[Code]&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>A Bayesian Nonparametric Approach for Inferring Drug Combination Effects on Mental Health in People with HIV&lt;/p>
+&lt;p>&lt;a href="https://github.com/bluejw/BayesDrugComb" target="_blank" rel="noopener">[Code]&lt;/a> &lt;a href="https://wjin.shinyapps.io/Rshiny/" target="_blank" rel="noopener">[Shiny]&lt;/a>&lt;/p>
+&lt;/li>
 &lt;/ul></description></item></channel></rss>
